@@ -1,7 +1,7 @@
 """Smoke test for whatsapp-action-sim recipe main execution with mocked LLM."""
 
 import os
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 os.environ["LLM_API_KEY"] = "nvapi-test"
 
