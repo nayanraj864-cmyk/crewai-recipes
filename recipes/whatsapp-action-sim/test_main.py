@@ -10,9 +10,7 @@ from crew import build_crew  # noqa: E402
 
 def test_crew_build_and_kickoff() -> None:
     """Verify build_crew instantiates Crew and kickoff runs smoothly."""
-    crew = build_crew(
-        user_message="Hey! Where is my order?", sender_name="Test User"
-    )
+    crew = build_crew(user_message="Hey! Where is my order?", sender_name="Test User")
     assert len(crew.agents) == 3
     assert len(crew.tasks) == 3
 
