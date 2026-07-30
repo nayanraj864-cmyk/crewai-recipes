@@ -220,7 +220,6 @@ jobs:
         run: |
           cd recipes/whatsapp-action-sim
           python test_llm_retries.py
-
   import-check-playground:
     name: Import Check — playground
     runs-on: ubuntu-latest
